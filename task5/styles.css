@@ -3,7 +3,8 @@
 }
 
 .input-message {
-    width: 100%;
+    width: 80%;
+    font-size: medium;
 }
 
 .box-messages {
@@ -25,4 +26,14 @@
 
 .message--server {
     align-self: start;
+}
+
+.btn-send {
+    width: 10%;
+    padding: .3em;
+    font-size: medium;
+}
+
+.btn-send--geo {
+    color:blue;
 }

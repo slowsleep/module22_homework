@@ -1,3 +1,15 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .form-send-message {
     display: flex;
 }
@@ -11,9 +23,13 @@
     border: 5px blue solid;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    overflow: auto; 
 }
 
 .message {
+    padding: 1em;
+    margin: .2em;
     width: 50%;
     border: 4px solid;
     border-radius: 10px;
